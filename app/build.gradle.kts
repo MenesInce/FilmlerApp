@@ -11,6 +11,10 @@ android {
     buildFeatures {
         viewBinding = true
     }
+    dataBinding {
+        enable = true
+    }
+
 
     defaultConfig {
         applicationId = "com.menesince.filmlerapp"
