@@ -14,7 +14,9 @@ import com.menesince.filmlerapp.data.entity.Filmler
 import com.menesince.filmlerapp.databinding.FragmentAnasayfaBinding
 import com.menesince.filmlerapp.ui.adapter.FilmlerAdapter
 import com.menesince.filmlerapp.ui.viewmodel.AnasayfaViewModel
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class AnasayfaFragment : Fragment() {
     private lateinit var binding: FragmentAnasayfaBinding
     private lateinit var viewModel: AnasayfaViewModel
